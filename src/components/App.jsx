@@ -1,6 +1,6 @@
 import AddTodo from './AddTodo/AddTodo';
 import Navigate from './Navigate/Navigate';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchTodo, refresh } from 'redux/redux-redesers';
 import db from '../db.json';
