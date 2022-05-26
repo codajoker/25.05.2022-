@@ -10,6 +10,8 @@ export const App = () => {
 
   useEffect(() => {
     dispatch(refresh());
+    // dispatch(fetchTodo(db));
+
     return () => {
       dispatch(fetchTodo(db));
     };

@@ -1,8 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
-
+import db from '../db.json';
 export const todoSlice = createSlice({
   name: 'todos',
-  initialState: { filter: '', todos: [], searchButton: 'all' },
+  initialState: {
+    filter: '',
+    todos: [...db],
+    searchButton: 'all',
+  },
   reducers: {
     fetchTodo(state, action) {
       state.todos = action.payload.sort((a, b) =>
