@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.a330ce11.css",
-    "main.js": "/react-homework-template/static/js/main.51486e61.js",
-    "static/js/787.a6d51bb8.chunk.js": "/react-homework-template/static/js/787.a6d51bb8.chunk.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.a330ce11.css.map": "/react-homework-template/static/css/main.a330ce11.css.map",
-    "main.51486e61.js.map": "/react-homework-template/static/js/main.51486e61.js.map",
-    "787.a6d51bb8.chunk.js.map": "/react-homework-template/static/js/787.a6d51bb8.chunk.js.map"
+    "main.css": "/25.05.2022-/static/css/main.a330ce11.css",
+    "main.js": "/25.05.2022-/static/js/main.65c54e92.js",
+    "static/js/787.a6d51bb8.chunk.js": "/25.05.2022-/static/js/787.a6d51bb8.chunk.js",
+    "index.html": "/25.05.2022-/index.html",
+    "main.a330ce11.css.map": "/25.05.2022-/static/css/main.a330ce11.css.map",
+    "main.65c54e92.js.map": "/25.05.2022-/static/js/main.65c54e92.js.map",
+    "787.a6d51bb8.chunk.js.map": "/25.05.2022-/static/js/787.a6d51bb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a330ce11.css",
-    "static/js/main.51486e61.js"
+    "static/js/main.65c54e92.js"
   ]
 }
