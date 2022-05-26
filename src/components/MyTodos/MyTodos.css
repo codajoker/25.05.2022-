@@ -1,0 +1,46 @@
+.myTodos {
+  position: relative;
+  background: #ededed;
+  border-radius: 6px;
+  height: 100%;
+  max-height: 634px;
+  overflow: scroll;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 38px;
+}
+
+.myTodos::-webkit-scrollbar {
+  width: 4px;
+}
+
+.myTodos::-webkit-scrollbar-thumb {
+  height: 282px;
+  background: #00b3db;
+  border-radius: 40px;
+}
+.titleMyTodos {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+.wrapperMyTodos {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 1439px) {
+  .myTodos {
+    height: 634px;
+    width: 640px;
+  }
+  .myTodos::-webkit-scrollbar-thumb {
+    height: 405px;
+  }
+  .wrapperMyTodos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .titleMyTodos {
+    margin-bottom: 0;
+  }
+}

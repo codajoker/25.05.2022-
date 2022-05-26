@@ -1,0 +1,12 @@
+.navigator {
+  width: 100%;
+  height: 56px;
+  background: #00b3db;
+  margin-bottom: 38px;
+}
+@media screen and (min-width: 1439px) {
+  .navigator {
+    height: 74px;
+    margin-bottom: 52px;
+  }
+}

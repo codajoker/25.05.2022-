@@ -1,0 +1,53 @@
+.addTodo {
+  padding: 26px 23px;
+  background: #ededed;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  color: #000000;
+}
+.title {
+  margin-bottom: 27px;
+  font-size: 20px;
+}
+
+.addTodoInput {
+  width: 100%;
+  max-width: 456px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-left: 17px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  border: none;
+  font-weight: 400;
+}
+.addTodoButton {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+
+  background: #00b3db;
+  border-radius: 5px;
+  padding: 11px 19px;
+}
+.addTodoInputWrapper {
+  position: relative;
+  max-width: 456px;
+  display: flex;
+  align-items: center;
+}
+.addTodoButton {
+  position: absolute;
+  right: 10px;
+}
+@media screen and (min-width: 1439px) {
+  .title {
+    margin-bottom: 30px;
+  }
+  .addTodoInputWrapper {
+    width: 456px;
+  }
+  .addTodo {
+    height: 171px;
+  }
+}

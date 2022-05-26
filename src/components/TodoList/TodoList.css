@@ -1,0 +1,68 @@
+@import-normalize; /* bring in normalize.css styles */
+.todoList {
+  position: relative;
+  width: auto;
+}
+.blur {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  height: 57px;
+  background: linear-gradient(0deg, #ededed 0%, rgba(237, 237, 237, 0) 164.04%);
+}
+
+.todListItem {
+  padding: 20px 36px 19px 36px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.todListItem:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.react-switch-label {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  min-width: 66px;
+  height: 33px;
+  background: #ececec;
+  border-radius: 16.5px;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.react-switch-label .react-switch-button {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: #00b3db;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 60px;
+}
